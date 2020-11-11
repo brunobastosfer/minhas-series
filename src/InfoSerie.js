@@ -104,7 +104,7 @@ const InfoSerie = ({ match }) => {
             {
                 mode === 'EDIT' &&
                 <div className='container'>
-                    <h1>Nova Serie</h1>
+                    <h1>Editar Série</h1>
                     <button className='btn btn-primary' onClick={() => setMode('INFO')}>Cancelar Edição</button>
                     <form>
                         <div className='form-group'>
